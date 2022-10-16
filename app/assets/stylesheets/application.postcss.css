@@ -1,8 +1,13 @@
 /* Entry point for your PostCSS build */
 
-#principal {
-    & .teste {
-        color: red;
-        background-color: red;
-    }
-}
+/*#principal {*/
+/*    & .teste {*/
+/*        color: red;*/
+/*        background-color: red;*/
+/*    }*/
+/*}*/
+
+/* tailwind */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
